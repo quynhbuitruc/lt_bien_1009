@@ -1,0 +1,1 @@
+let sothu1 = Number(document.getElementById(so1))
