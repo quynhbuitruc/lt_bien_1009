@@ -10,30 +10,31 @@
 <body>
     <table>
         <tr>
-            <td colspan="4"><input type="number" name="so1" id="so1">
+            <td colspan="4"><input type="number" id="so1">
             </td>
         </tr>
         <tr>
-            <td colspan="4"><input type="number" name="so2" id="so2">
+            <td colspan="4"><input type="number" id="so2">
             </td>
         </tr>
         <tr>
             <td>
-                <button id="tong" name="tong" value="+">+</button>
+                <input onclick="tong()" type="button" value="+">
             </td>
             <td>
-                <button id="hieu" name="hieu" value="-">-</button>
+                <input onclick="hieu()" type="button" value="-">
             </td>
             <td>
-                <button id="tich" name="tich" value="*">*</button>
+                <input onclick="tich()" type="button" value="*">
             </td>
             <td>
-                <button id="thuong" name="thuong" value="/">/</button>
+                <input onclick="thuong()" type="button" value="/">
             </td>
         <tr>
             <td id="phatNgon" colspan="4"></td>
         </tr>
     </table>
+    <script src="bantinh.js"></script>
 </body>
 
 </html>
