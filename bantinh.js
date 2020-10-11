@@ -36,10 +36,10 @@ function thuong() {
 
 }
 
-function euqal() {
-    document.getElementById("hienth2").innerHTML = hienthi1
-    document.getElementById("hienthi2").innerText = phatngon1
-    document.getElementById("so1").value = phatngon
+function equal() {
+    document.getElementById("hienthi2").innerText = hienthi1
+    document.getElementById("phatngon2").innerText = phatngon1
+    document.getElementById("so1").value = phatngon1
     document.getElementById("so2").focus();
     document.getElementById("so2").value = ""
 }
