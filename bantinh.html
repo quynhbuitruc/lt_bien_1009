@@ -6,28 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bàn tính</title>
     <script src="bantinh.js"></script>
-    <style>
-        tr,td {
-            width: 50px; height: 20px
-        }
-    </style>
 </head>
 
 <body>
     <table>
         <tr>
-            <td style ="font-size: large;" colspan="4">BÀN TÍNH THÔNG MINH</td>
-            
+            <th style="font-size: large;" colspan="5">BÀN TÍNH THÔNG MINH</th>
+
         </tr>
         <tr>
+            <td>Số 1: </td>
             <td colspan="4"><input type="number" id="so1">
             </td>
         </tr>
         <tr>
+            <td>Số 2:</td>
             <td colspan="4"><input type="number" id="so2">
             </td>
         </tr>
         <tr>
+            <td></td>
             <td>
                 <input onclick="tong()" type="button" value="+">
             </td>
@@ -40,15 +38,17 @@
             <td>
                 <input onclick="thuong()" type="button" value="/">
             </td>
-        
+
         <tr>
+            <td>
+            </td>
             <td>
                 <input onclick="equal()" type="button" value="=">
             </td>
         </tr>
         <tr>
             <td id="hienthi"></td>
-            <td id="phatngon" ></td>
+            <td id="phatngon"></td>
         </tr>
 
     </table>
