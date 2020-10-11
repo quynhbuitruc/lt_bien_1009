@@ -36,7 +36,7 @@ function thuong() {
     
 }
 
-function use() {
+function euqal() {
     document.getElementById("so1").value = phatngon
     document.getElementById("so2").focus();
     document.getElementById("so2").value = ""
